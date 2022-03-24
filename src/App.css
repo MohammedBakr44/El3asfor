@@ -1,0 +1,69 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-actions {
+  margin-top: 1rem;
+}
+
+.App-actions button {
+  margin-left: 10px;
+  display: inline-block;
+  font-weight: 400;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: 1px solid transparent;
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: .25rem;
+  cursor: pointer;
+}
+
+.App-actions .primary {
+  color: #fff;
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.App-actions .danger {
+  color: #fff;
+  background-color: #dc3545;
+  border-color: #dc3545;
+}
+
+.App-actions .info {
+  color: #fff;
+  background-color: #17a2b8;
+  border-color: #17a2b8;
+}
+
+.counter {
+  border: 5px solid #f4f4f4;
+  font-weight: 700;
+  margin: 2em auto;
+  padding: 3em;
+}
+
+.count {
+  font-size: 4em;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
